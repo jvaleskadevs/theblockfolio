@@ -1,5 +1,5 @@
 {
-  "name": "jport",
+  "name": "the-blockfolio",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,14 +9,23 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "framer-motion": "^11.15.0",
+    "next": "14.2.4",
     "react": "^18",
+    "react-countup": "^6.5.3",
     "react-dom": "^18",
-    "next": "14.2.4"
+    "react-hot-toast": "^2.4.1",
+    "react-icons": "^5.4.0",
+    "react-simple-image-viewer": "^1.2.2",
+    "react-spinners": "^0.15.0",
+    "styled-components": "^6.1.13"
   },
   "devDependencies": {
-    "postcss": "^8",
-    "tailwindcss": "^3.4.1",
+    "@types/node": "22.10.2",
+    "@types/react": "19.0.2",
     "eslint": "^8",
-    "eslint-config-next": "14.2.4"
+    "eslint-config-next": "14.2.4",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1"
   }
 }
